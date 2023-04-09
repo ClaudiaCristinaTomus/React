@@ -1,0 +1,107 @@
+@import "./../styles/variables.scss";
+
+
+.header{
+    color:$dark;
+    width:100%;
+    height: $headerHeight;
+    padding:0 1.5rem;
+    @include breakpoint(md){
+        padding:0 3rem;
+    }
+    transition:0.3s ease all;
+
+    &__content{
+        overflow:hidden;
+        color:$dark;
+        margin:0 auto;
+        max-width: 1920px;
+        height:100%;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        position:relative;
+        z-index:100;
+
+        &__logo{
+            font-size: 2rem;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        &__nav{
+            color:$dark;
+            top:0;
+            right:100%;
+            bottom:0;
+            width:100%;
+            height:100vh;
+            position:fixed;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            transform: translate(0);
+            transition: 0.3s ease transform;
+
+            @include breakpoint(md){
+                transform: none;
+                flex-direction: row;
+              
+                width:auto;
+                height:100%;
+                position: static;
+            }
+            ul{
+                list-style-type:none;
+                padding:0;
+                color:$dark;
+                display:flex;
+                flex-direction: column;
+                margin-bottom: $spacing-lg;
+                @include breakpoint(md){
+                    flex-direction: row;
+                    align-items: center;
+                    margin-bottom: 0;
+
+                }
+                
+            }
+            li{
+                text-decoration: none;
+                list-style-type:none;
+                color:$dark;
+                padding:0.75rem 1.25rem;
+                border-radius: $borderRadius;
+                transition:0.3s ease all;
+                a{
+                    list-style-type:none;
+                    text-decoration: none;
+                }
+               
+                &:active{
+                    border-radius: calc(#{$borderRadius}+6px);
+                }
+            }
+            &.isMenu{
+                transform: translate(100%);
+            }
+        }
+
+        &__toggle{
+            cursor: pointer;
+            display:flex;
+            align-items: center;
+            font-size: 2rem;
+            transition:0.3s ease all;
+            position: relative;
+
+            @include breakpoint(md){
+                display:none;
+            }
+        }
+
+        
+    }
+}
