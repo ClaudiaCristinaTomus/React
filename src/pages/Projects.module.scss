@@ -1,0 +1,23 @@
+@import "./../styles/variables.scss";
+
+
+.projects{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    height: auto;
+    padding:0rem 1.5rem;
+   
+    justify-content: center;
+    align-items: center;
+    &__title{
+        padding-bottom: 3em;
+    }
+    &__subtitle{
+        padding-top: 12em;
+        display:flex;
+        padding:1em;
+        justify-content: center;
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,30 @@
+@import "./../styles/variables.scss";
+
+.about{
+  
+    width:100%;
+    height: auto;
+    padding:0rem 1.5rem;
+    display:flex;
+    justify-content: space-around;
+    margin:0 auto;
+    @include breakpoint(md){
+        padding:5rem 3rem;
+    }
+    transition:0.3s ease all;
+    &__image{
+        width:25%;
+        border-radius: 70%;
+    }
+    &__title{
+      
+        font-size: 3rem;
+        max-width:12em;
+        &__name{
+            font-size: 3.8rem;
+            
+        }
+    }
+
+
+}

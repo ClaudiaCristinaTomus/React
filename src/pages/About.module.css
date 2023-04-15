@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap");
+.about {
+  width: 100%;
+  height: auto;
+  padding: 0rem 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  transition: 0.3s ease all;
+}
+@media (min-width: 48em) {
+  .about {
+    padding: 5rem 3rem;
+  }
+}
+.about__image {
+  width: 25%;
+  border-radius: 70%;
+}
+.about__title {
+  font-size: 3rem;
+  max-width: 12em;
+}
+.about__title__name {
+  font-size: 3.8rem;
+}/*# sourceMappingURL=About.module.css.map */

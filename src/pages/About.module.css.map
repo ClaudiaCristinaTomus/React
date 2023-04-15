@@ -1,0 +1,1 @@
+{"version":3,"sources":["../styles/variables.scss","About.module.scss","About.module.css"],"names":[],"mappings":"AAAQ,6GAAA;ACER;EAEI,WAAA;EACA,YAAA;EACA,oBAAA;EACA,aAAA;EACA,6BAAA;EACA,cAAA;EAIA,yBAAA;ACJJ;AFYQ;ECnBR;IASQ,kBAAA;ECEN;AACF;ADAI;EACI,UAAA;EACA,kBAAA;ACER;ADAI;EAEI,eAAA;EACA,eAAA;ACCR;ADAQ;EACI,iBAAA;ACEZ","file":"About.module.css"}
