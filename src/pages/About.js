@@ -1,18 +1,36 @@
 import React from 'react'
 import classes from "./About.module.scss";
-import image from "../assets/image.JPG"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-const About = () => {
+import {FaLinkedinIn ,FaGithub} from "react-icons/fa";
+
+function About() {
   return (
-    <section className={classes.about}>
-      <h2 className={classes.about__title}>Hi , I'm <span className={classes.about__title__name}>Claudia Cristina Tomus</span></h2>
-      <div className={classes.about__icons}>
-      <FontAwesomeIcon icon={["fab", "github"]} />
-      <FontAwesomeIcon icon={["fab", "github"]} />
+
+    <div className={classes.intro}>
+
+      <div className={classes.left}>
+        <div className={classes.wrapper}>
+          <h2>Hi , I'm</h2>
+          <h1>Claudia Cristina </h1>
+          <h1>Tomus</h1>
+          <div className={classes.icons}>
+          <FaLinkedinIn/>
+          <FaGithub/>
+          </div>
+          
+
+        </div>
       </div>
-      <img src={image} alt="Logo" className={classes.about__image}/>
-    </section>
-  )
+
+      <div className={classes.right}>
+        <div className={classes.imgContainer}>
+          <img src="assets/image.JPG" alt="" />
+        </div>
+      </div>
+
+
+    </div>
+
+  );
 }
 
 export default About
