@@ -7,6 +7,7 @@ const Projects = () => {
       <div className={classes.projects__subtitle}>
         <h3 className={classes.projects__subTitle}>Html/CSS/Javascript</h3>
         <h3 className={classes.projects__subTitle}>ReactJs/SCSS</h3>
+        <h3 className={classes.projects__subTitle}>ReactNative</h3>
         <div className={classes.line}></div>
         </div>
 
