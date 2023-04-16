@@ -1,5 +1,11 @@
 import React from 'react'
 import classes from "./Projects.module.scss";
+import project1 from "../assets/bookmarkWebsite.png"
+import project2 from  "../assets/easyBank.png"
+import project3 from  "../assets/websitesalon.png"
+import project4 from "../assets/shortly.png"
+import project5 from "../assets/manage.png"
+
 const Projects = () => {
   return (
     <section className={classes.projects}>
@@ -13,27 +19,32 @@ const Projects = () => {
 
       <div className={classes.container}>
       <div className={classes.item}>
-          <img src="assets/bookmarkWebsite.png" alt="" />
-          <h3>Web layout</h3>
+      <a href="https://claudiacristinatomus.github.io/bookmarkPage/" target="_blank" rel="noreferrer">
+        <img src={project1} alt="example" />
+      </a>
         </div>
 
         <div className={classes.item}>
-          <img src="assets/easyBank.png" alt="" />
-          <h3>Web layout</h3>
+        <a href="https://claudiacristinatomus.github.io/websiteReactJSSCSS/" target="_blank" rel="noreferrer">
+        <img src={project2} alt="example" /></a>
+     
         </div>
 
         <div className={classes.item}>
-          <img src="assets/websitesalon.png" alt="" />
-          <h3>Web layout</h3>
+        <a href="https://claudiacristinatomus.github.io/websiteReactJS/" target="_blank" rel="noreferrer">
+        <img src={project3} alt="example" /></a>
+     
         </div>
         <div className={classes.item}>
-          <img src="assets/shortly.png" alt="" />
-          <h3>Web layout</h3>
+        <a href="https://claudiacristinatomus.github.io/ApiURLReactJsPage/" target="_blank" rel="noreferrer">
+        <img src={project4} alt="example" /></a>
+      
         </div>
 
         <div className={classes.item}>
-          <img src="assets/manage.png" alt="" />
-          <h3>Web layout</h3>
+        <a href="https://claudiacristinatomus.github.io/managePageReactJs/" target="_blank" rel="noreferrer">
+        <img src={project5} alt="example" /></a>
+         
         </div>
       </div>
   
