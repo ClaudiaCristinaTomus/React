@@ -8,7 +8,7 @@ import project5 from "../assets/manage.png"
 
 const Projects = () => {
   return (
-    <section className={classes.projects}>
+    <div className={classes.projects}>
       <h2 className={classes.projects__title}>Projects</h2>
       <div className={classes.projects__subtitle}>
         <h3 className={classes.projects__subTitle}>Html/CSS/Javascript</h3>
@@ -48,7 +48,7 @@ const Projects = () => {
         </div>
       </div>
   
-    </section>
+    </div>
   )
 }
 

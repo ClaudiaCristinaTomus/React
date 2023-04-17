@@ -1,7 +1,7 @@
 import React from 'react'
 import classes from "./About.module.scss";
 import {FaLinkedinIn ,FaGithub} from "react-icons/fa";
-
+import imageAbout from "../assets/image.JPG"
 function About() {
   return (
 
@@ -23,7 +23,7 @@ function About() {
 
       <div className={classes.right}>
         <div className={classes.imgContainer}>
-          <img src="assets/image.JPG" alt="" />
+          <img src={imageAbout} alt="" />
         </div>
       </div>
 
