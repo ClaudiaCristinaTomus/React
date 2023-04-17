@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/React/static/css/main.5ff827f3.css",
-    "main.js": "/React/static/js/main.ee45f0ff.js",
-    "static/media/image.JPG": "/React/static/media/image.209678ad0ac39d9ffc7d.JPG",
-    "static/media/shortly.png": "/React/static/media/shortly.691d43cf82cb7c8610a6.png",
-    "static/media/websitesalon.png": "/React/static/media/websitesalon.865ca620bf3763269b5c.png",
-    "static/media/manage.png": "/React/static/media/manage.3531efa430f36ffbbef7.png",
-    "static/media/easyBank.png": "/React/static/media/easyBank.54e71a20dae04b8ad859.png",
-    "static/media/bookmarkWebsite.png": "/React/static/media/bookmarkWebsite.555d00e9460abeecdfd2.png",
-    "index.html": "/React/index.html",
-    "main.5ff827f3.css.map": "/React/static/css/main.5ff827f3.css.map",
-    "main.ee45f0ff.js.map": "/React/static/js/main.ee45f0ff.js.map"
+    "main.css": "/static/css/main.5ff827f3.css",
+    "main.js": "/static/js/main.271d03a3.js",
+    "static/media/image.JPG": "/static/media/image.209678ad0ac39d9ffc7d.JPG",
+    "static/media/shortly.png": "/static/media/shortly.691d43cf82cb7c8610a6.png",
+    "static/media/websitesalon.png": "/static/media/websitesalon.865ca620bf3763269b5c.png",
+    "static/media/manage.png": "/static/media/manage.3531efa430f36ffbbef7.png",
+    "static/media/easyBank.png": "/static/media/easyBank.54e71a20dae04b8ad859.png",
+    "static/media/bookmarkWebsite.png": "/static/media/bookmarkWebsite.555d00e9460abeecdfd2.png",
+    "index.html": "/index.html",
+    "main.5ff827f3.css.map": "/static/css/main.5ff827f3.css.map",
+    "main.271d03a3.js.map": "/static/js/main.271d03a3.js.map"
   },
   "entrypoints": [
     "static/css/main.5ff827f3.css",
-    "static/js/main.ee45f0ff.js"
+    "static/js/main.271d03a3.js"
   ]
 }
